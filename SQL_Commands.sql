@@ -13,3 +13,7 @@ FROM parks_and_recreation.employee_demographics;
 -- Making cimple calculation in SQL which follows the PEMDAS rule
 SELECT age, age+10
 FROM parks_and_recreation.employee_demographics;
+
+-- Selecting distinct element from a column
+SELECT DISTINCT gender
+FROM parks_and_recreation.employee_demographics
